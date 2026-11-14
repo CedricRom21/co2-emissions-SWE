@@ -1,3 +1,8 @@
+**Student:** Cedric Rene A. Rombines  
+**Country / ISO-3:** Sweden / SWE  
+**Study period:** 1990–2024  
+**Declared to instructor on:** November 14, 2026
+
 # co2-emissions-SWE
 Country-level CO₂ emissions analysis for Sweden (1990–2024) using R and Our World in Data.
 ## Research Question
@@ -40,6 +45,9 @@ The highest annual emissions during the study period occurred in 1996, reaching 
 CO₂ emissions per capita also showed a generally declining trend. In 1990, Sweden recorded approximately 6.70 tonnes per person, while the 2024 value was approximately 3.78 tonnes per person. The lowest per-capita value occurred in 2023, at approximately 3.47 tonnes per person.
 
 Overall, the results indicate that Sweden's annual and per-capita CO₂ emissions were lower in 2024 than in 1990. Despite this long-term decline, the increase observed in 2024 shows that emissions did not decrease consistently every year. These findings describe changes in emissions over time but do not establish the specific causes of those changes.
+
+The European Environment Agency (2025) reports that Sweden's greenhouse gas emissions have generally declined due to changes in energy use. These include replacing fossil fuels for heating with district heating and electricity, shifting industrial energy use toward biofuels and electricity, and increasing the use of renewable energy. Improvements in vehicle efficiency and the use of biofuels have also contributed to reductions in transport emissions. These developments provide possible context for the declining trend observed in this analysis, although the EEA's greenhouse gas figures are not identical to the fossil fuel and industrial CO₂ measurements used in this study.
+
 ## Limitations
 
 This analysis focuses only on Sweden and covers the period from 1990 to 2024. The dataset contains estimates that may be revised as new information becomes available. The study examines CO₂ emissions from fossil fuels and industrial processes, not all greenhouse gas emissions or emissions from land-use change. The results describe trends and changes over time but cannot independently explain the causes behind them. Missing data were not treated as zero.
@@ -74,3 +82,7 @@ The script will generate the Sweden-specific dataset, summary statistics, yearly
 Our World in Data. (n.d.). *CO₂ and Greenhouse Gas Emissions*. https://github.com/owid/co2-data
 
 Our World in Data. (n.d.). *CO₂ and Greenhouse Gas Emissions dataset*. https://owid-public.owid.io/data/co2/owid-co2-data.csv
+
+European Environment Agency. (2025). *Total greenhouse gas emissions (without LULUCF) | Sweden*. Europe's Environment 2025.
+
+https://www.eea.europa.eu/en/europe-environment-2025/countries/sweden/total-greenhouse-gas-emissions
